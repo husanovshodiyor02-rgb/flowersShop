@@ -12,7 +12,7 @@ const products = [
 function Header({ cartCount, onCartClick }) {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <header className="sticky top-0 z-50 bg-white/90  backdrop-blur border-b border-pink-100 shadow-sm">
+    <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-pink-100 shadow-sm">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
         <div className="text-2xl font-bold text-pink-600">🌸 GulBog'</div>
         <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-600">
