@@ -20,8 +20,6 @@ function Header({ cartCount, onCartClick }) {
           <a href="#catalog" className="hover:text-pink-500 transition">Katalog</a>
           <a href="#about" className="hover:text-pink-500 transition">Biz haqimizda</a>
           <a href="#contact" className="hover:text-pink-500 transition">Aloqa</a>
-
-          
         </nav>
         <button
           onClick={onCartClick}
